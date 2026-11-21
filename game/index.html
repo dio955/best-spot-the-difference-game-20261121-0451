@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twin Harbor — Spot the Difference</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0d1b2a; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #e8e3d3; text-align: center; }
+  #wrap { width: 1216px; margin: 10px auto; }
+  canvas { display: block; margin: 0 auto; background: #10222f; border-radius: 10px;
+           box-shadow: 0 8px 40px rgba(0,0,0,.55); cursor: crosshair; }
+  #foot { margin-top: 8px; font-size: 14px; color: #9db4c0; letter-spacing: .04em; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="stage" width="1216" height="684"></canvas>
+  <div id="foot">Twin Harbor — Spot the Difference · click a difference in either picture · H for a hint · R to restart the level</div>
+</div>
+<script src="src/rng.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/scene.js"></script>
+<script src="src/game.js"></script>
+</body>
+</html>
